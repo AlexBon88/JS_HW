@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    // let str = 'hello okten';
+    // console.log(str);
+    // let s = str.concat('!!!!');
+    // console.log(s);
+    // console.log(str.toUpperCase());
+    // console.log(str.toLowerCase());
+    // console.log(str.startsWith('h'));
+    // console.log(str.endsWith('n'));
+    // console.log(str.substring(0, 7));
+    // console.log(str.indexOf('o'));
+    // console.log(str.indexOf('o', 5));
+    // console.log(str.lastIndexOf('o'));
+    // console.log(str.charAt(str.indexOf('o')));
+    // console.log(str.replace('e', '!'));
+    // let split = str.split(' ');
+    // console.log(split)
+    // let arr = [];
+    // console.log(typeof arr);
+    // console.log(Array.isArray(arr));
+    // arr.push('hello1');
+    // arr.push('hello2');
+    // arr.push('hello3');
+    // arr.push('hello4');
+    // arr.push('hello5');
+    // console.log(arr);
+    // console.log(arr.pop());
+    // console.log(arr.unshift('11'));
+    // ;
+    // console.log(arr);
+    // console.log(arr.shift());
+    // console.log(arr);
+    // let join = arr.join('$');
+    // console.log(join);
+    // let nums = [11, 22, 33];
+    // let concat = arr.concat(nums);
+    // console.log(concat);
+    // let slice = concat.slice(0, 4);
+    // console.log(concat);
+    // console.log(slice);
+    let users = [
+        {name: 'vasya', age: 31, status: false},
+        {name: 'petya', age: 30, status: true},
+        {name: 'kolya', age: 29, status: true},
+        {name: 'olya', age: 28, status: false},
+        {name: 'max', age: 30, status: true},
+        {name: 'anya', age: 31, status: false},
+        {name: 'oleg', age: 28, status: false},
+        {name: 'andrey', age: 29, status: true},
+        {name: 'masha', age: 30, status: true},
+        {name: 'olya', age: 31, status: false},
+        {name: 'max', age: 31, status: true},
+
+    ];
+    // users.forEach(function (value, index) {
+    //     console.log(value, index);
+    // })
+    // users.forEach(value => console.log(value));
+    // let filteredUsers = users.filter(value => value.age>30);
+    // console.log(filteredUsers);
+    // let mapUsers = users.map(function (value, index){
+    //     return {...value, id:index+1}
+    // })
+    // console.log(mapUsers);
+    // let sort = users.sort((a, b) => {
+    //     return a.age - b.age;
+    // })
+    // let sort = users.sort((a, b) => {
+    //     if (a.name > b.name)
+    //         return 1;
+    //     if (a.name < b.name)
+    //         return -1;
+    //     if (a.name === b.name)
+    //         return 0;
+    // });
+    // console.log(sort);
+   let reduce = users.reduce((accumulator, user) => {
+        if (user.status) {
+        accumulator.statT.push(user);
+    } else {
+         accumulator.statF.push(user);
+        }
+        return accumulator;
+   }, {statT:[], statF:[]});
+    console.log(reduce);
+
+</script>
+</body>
+</html>
