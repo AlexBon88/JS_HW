@@ -19,4 +19,5 @@ let users = [
     new User(9, 'Petro', 'Zhus', 'zhus@xxx.ua', '+380775472521'),
 ]
 users.sort((a, b) => a.id - b.id);
+console.log(users)
 

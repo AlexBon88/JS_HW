@@ -25,4 +25,5 @@ const redCaps = [
     new RedCap('Izabella', 17 , 31),
 ];
 const prince = new Prince('Vasya', 41, 39);
-const find = redCaps.find(redCap => redCap.footSize === prince.footFind )
+const find = redCaps.find(redCap => redCap.footSize === prince.footFind );
+console.log(find);

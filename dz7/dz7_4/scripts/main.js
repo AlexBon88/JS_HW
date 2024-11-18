@@ -19,3 +19,4 @@ let clients = [
     new Client(4, 'Margarita', 'Nazaruk', 'nazaruk@tinder.com', '+380508544525', ['crutch', 'wheelchair']),
     new Client(9, 'Petro', 'Zhus', 'zhus@xxx.ua', '+380775472521', ['ball']),
 ]
+console.log(clients);
