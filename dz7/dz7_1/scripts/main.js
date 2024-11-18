@@ -17,3 +17,4 @@ let users = [
     new User(9, 'Petro', 'Zhus', 'zhus@xxx.ua', '+380775472521'),
     new User(10, 'Andriy', 'Oliynyk', 'oliynyk@gmail.com', '+380975776822'),
 ]
+console.log(users);
