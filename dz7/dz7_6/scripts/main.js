@@ -36,3 +36,4 @@ car.info();
 car.increaseMaxSpeed(114);
 car.changeYear(2014);
 car.addDriver({});
+console.log(car);
