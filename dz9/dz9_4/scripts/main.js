@@ -15,4 +15,4 @@ for (const course of coursesAndDurationArray) {
     block.appendChild(h2);
     block.appendChild(p);
     document.body.appendChild(block);
-}
+}''

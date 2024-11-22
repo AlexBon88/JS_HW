@@ -5,4 +5,4 @@ block.classList.add('alpha');
 block.classList.add('beta');
 document.body.appendChild(block);
 const block2 = block.cloneNode(true);
-document.body.appendChild(block2);
+document.body.appendChild(block2);''

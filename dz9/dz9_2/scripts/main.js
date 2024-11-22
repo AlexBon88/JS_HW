@@ -5,4 +5,4 @@ const part = document.createElement('li');
 part.textContent = element;
 list.appendChild(part);
 }
-document.body.appendChild(list);
+document.body.appendChild(list);''
