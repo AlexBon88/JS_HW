@@ -12,7 +12,6 @@ function reproduce() {
 
     curObj.forEach(obj => {
         const div = document.createElement('div');
-        div.className = 'object';
         div.textContent = obj;
         listObj.appendChild(div);
     });
