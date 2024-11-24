@@ -5,3 +5,4 @@ kg.addEventListener('input', function () {
     let lb = value * 2.2;
     lbOutput.innerText = lb;
 })
+
